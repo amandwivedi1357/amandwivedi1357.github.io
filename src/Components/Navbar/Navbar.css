@@ -1,0 +1,72 @@
+.n-wrapper {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    
+    top: 0;
+    
+  }
+  #main{
+    width: 100%;
+    
+    padding: 10px 2.5%;
+    border-bottom:  1px solid rgb(196, 183, 183);
+    background: rgb(252,166,31);
+background: linear-gradient(63deg, rgba(252,166,31,1) 9%, rgba(252,166,16,1) 32%, rgba(33,65,163,1) 86%);
+    z-index: 99999;
+    position: fixed;
+  }
+  .n-left {
+    
+    flex: 1;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    gap: 2rem;
+    width: 90%;
+  }
+  
+  .n-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+  .n-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 400;
+  }
+  
+  .n-list {
+    flex: 10;
+  }
+  .n-list > ul {
+    display: flex;
+    gap: 2rem;
+    margin-right: 4rem;
+  }
+  
+  .n-list > ul :hover {
+    color: rgb(6, 6, 134);
+    cursor: pointer;
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+   
+  }
+  
+  .n-button {
+    flex: 2;
+    
+  }
+  #contact{
+    margin-right: 10%;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .n-list {
+      display: none;
+    }
+  }
+  
