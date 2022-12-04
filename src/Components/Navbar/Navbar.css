@@ -55,7 +55,9 @@ background: linear-gradient(63deg, rgba(252,166,31,1) 9%, rgba(252,166,16,1) 32%
     border-bottom: 2px solid blue;
    
   }
-  
+  #span{
+    line-height: 25px;
+  }
   .n-button {
     flex: 2;
     

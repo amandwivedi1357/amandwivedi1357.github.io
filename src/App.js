@@ -26,13 +26,14 @@ function App() {
     <div>
       <Navbar/>
       <Intro />
-      <Services/>
-      <Experience/>
-      <Works/>
-      <Portfolio/>
       <Testimonial/>
-      <Contact/> 
-      <Footer/>
+      {/* <Services/> */}
+      {/* <Experience/> */}
+      {/* <Works/> */}
+      <Portfolio/>
+     
+      {/* <Contact/> */}
+      <Footer/> 
       </div>
     </div>
   );

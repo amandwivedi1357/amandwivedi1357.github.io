@@ -77,3 +77,16 @@
         height: 70px;
     }
   }
+
+  .About{
+    
+    width: 60%;
+    margin: auto;
+    height: 200px;
+    
+    text-align: justify;
+    line-height: 35px;
+  }
+  .A11{
+    margin-top: 5rem;
+  }

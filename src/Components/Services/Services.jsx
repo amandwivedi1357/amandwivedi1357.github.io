@@ -43,7 +43,7 @@ const Services = () => {
             <Card 
             imoji = {HeartEmoji}
             heading={'Design'}
-            detail={"Figma,Sketch,Photoshop,Adobe"}
+            detail={"node js,react js,npm"}
             />
            </motion.div>
            <motion.div style={{top:"12rem",left:"-4rem"}}>
@@ -56,8 +56,8 @@ const Services = () => {
            <motiondiv style={{top:"19rem",left:"13rem"}}>
             <Card
             imoji={Humble}
-            heading={'UI/UX'}
-            detail={"lorem test"}
+            heading={'database'}
+            detail={"express jsm mongo db"}
             />
            </motiondiv>
            <div

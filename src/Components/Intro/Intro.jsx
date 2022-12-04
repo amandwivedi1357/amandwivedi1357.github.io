@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import "./Intro.css";
+import pic2 from "../../img/pic.jpg"
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
 import boy from "../../img/boy.png";
@@ -30,28 +31,32 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey, I Am</span>
 
           <span>Aman Dwivedi</span>
-          <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
+          <span id="span">
+          Aspiring web development professional, great commands at
+          frontend designing and user-centric solutions. Collaborative,
+          team player and also with great leadership quality in working
+          with teams and executing goal-oriented projects. Strongly
+          interested in obtaining the web developer position to
+          contribute to the enhancement of the product.
           </span>
         </div>
-        <Link to="contact" smooth={true} spy={true}>
+        {/* <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
-        </Link>
+        </Link> */}
         {/* social icons */}
-        <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+     <div className="i-icons">
+       <a href="https://github.com/amandwivedi1357"> <img src={Github} alt="" />  </a> 
+         <a href="https://www.linkedin.com/in/aman-dwivedi-1357ad/"> <img src={LinkedIn} alt="" /></a>
           {/* <img src={Instagram} alt="" /> */}
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
-        <img src={Vector1} alt="" />
+        {/* <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={boy} alt="" /> */}
         {/* animation */}
-        <motion.img
+        {/* <motion.img
           initial={{ left: "-26%" }}
           whileInView={{ left: "-24%" }}
           transition={transition}
@@ -69,15 +74,22 @@ const Intro = () => {
         </motion.div>
 
         {/* animation */}
-        <motion.div
+        {/* <motion.div
           initial={{ left: "8rem", top: "18rem" }}
           whileInView={{ left: "0rem" }}
           transition={transition}
           className="floating-div"
-        >
+        > */}
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
-        </motion.div>
+          {/* <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+        </motion.div>  */}
+
+
+          <img className="propic" src={pic2} alt="" />
+
+
+
+
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
         <div
