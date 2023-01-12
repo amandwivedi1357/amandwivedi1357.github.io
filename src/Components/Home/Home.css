@@ -1,0 +1,77 @@
+.HC{
+    background-color: rgb(23, 3, 54);
+    height: 100vh;
+}
+.Left{
+    width: 40%;
+    
+}
+.vl{
+    border-left: 6px solid #ff3131;
+    height: 650px;
+}
+.myimg{
+    margin: 10% 10% 10% 15%;
+    transition: 1s ease;
+    border: 5px solid #ff3131;
+}
+.myimg:hover{
+    border-radius:50%;
+    transition: 1s ease;
+    box-shadow: 0 0 10px #ff3131,
+                 0 0 20px #ff3131, 
+                 0 0 40px #ff3131;
+}
+.btn{
+    border: 3px solid #ff3131;
+    margin-left: 21%;
+    width: 100px;
+    background-color: #ff3131;
+    color: white;
+    border-radius: 8px;
+}
+.btn:hover{
+    border-radius: 8px;
+    transform: scale(1.5);
+    transition: 1s ease;
+    box-shadow: 0 0 10px #ff3131,
+                 0 0 20px #ff3131, 
+                 0 0 40px #ff3131;
+}
+.right-cont{
+    width: 30rem;
+    margin: 10% 10% 10% 10%;
+    border: 2px solid rgb(255, 255, 255);
+    height: 450px;
+    color: white;
+}
+.right-cont>.occ{
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.right-cont>.occ:hover{
+    color: #fff;
+  text-shadow: 0 0 10px #fff,
+               0 0 20px #fff, 
+               0 0 40px #fff;
+               transition: 1s ease;
+}
+.desc{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.name:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+                 0 0 20px #fff, 
+                 0 0 40px #fff;
+                 transition: 1s ease;
+}
+.lg{
+    display: flex;
+}
+.lin{
+    font-size: 30px;
+}
