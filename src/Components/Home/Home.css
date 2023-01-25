@@ -1,14 +1,15 @@
 .HC{
     background-color: rgb(23, 3, 54);
     height: 100vh;
+    padding-top: 50px;
 }
 .Left{
     width: 40%;
     
 }
 .vl{
-    border-left: 6px solid #ff3131;
-    height: 650px;
+    
+    height: 625px;
 }
 .myimg{
     margin: 10% 10% 10% 15%;
@@ -42,7 +43,7 @@
     width: 30rem;
     margin: 10% 10% 10% 10%;
     border: 2px solid rgb(255, 255, 255);
-    height: 450px;
+    height: 400px;
     color: white;
 }
 .right-cont>.occ{

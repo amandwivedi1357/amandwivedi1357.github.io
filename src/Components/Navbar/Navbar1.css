@@ -2,9 +2,11 @@
     background-color: #060b26;
     height: 80px;
     display: flex;
+    position: fixed;
     justify-content: start;
     align-items: center;
     border: 1px solid red;
+    z-index: 9999;
 }
 .menu-bars{
     margin-left: 2rem;
@@ -63,5 +65,5 @@
 }
 span{
     margin-left: 16px;
-    color: #060b26;
+    color: #ffffff;
 }

@@ -4,6 +4,9 @@ import "./Home.css"
 import propic from "../../img/propic.jpg"
 import resume from "../../Files/Resume.pdf"
 import {BsLinkedin,BsGithub} from "react-icons/bs"
+import About from '../About/About'
+import Projects from '../Projects/Projects'
+import Skills from '../Skills/Skills'
 
 const Home = () => {
     // const style={backgroundColor:"gray",height:"auto",width:"100%"}
@@ -27,6 +30,8 @@ const Home = () => {
         </div>
         
       </Flex>
+      <Home/>
+    
     </div>
   )
 }

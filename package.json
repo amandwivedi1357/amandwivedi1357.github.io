@@ -16,6 +16,7 @@
         "framer-motion": "^7.10.3",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-github-calendar": "^3.4.0",
         "react-icons": "^4.7.1",
         "react-router-dom": "^6.6.0",
         "react-scripts": "5.0.1",
@@ -25,6 +26,7 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
+        
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",

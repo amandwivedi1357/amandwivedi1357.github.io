@@ -6,31 +6,31 @@ import React from 'react'
 
 export const SideBarData = [
     {
-        title:'',
+        title:'Home',
         path:'/',
         icon:<aiIcons.AiFillHome/>,
         cName:'nav-text'
     },
     {
-        title:'',
-        path:'/About',
+        title:'About',
+        path:'/about',
         icon:<aiIcons.AiOutlineUser/>,
         cName:'nav-text'
     },
     {
-        title:'',
-        path:'/Skills',
+        title:'Skills',
+        path:'/skills',
         icon:<FaIcons.FaSpeakap/>,
         cName:'nav-text'
     },
     {
-        title:'',
-        path:'/projects',
+        title:'Project',
+        path:'/project',
         icon:<aiIcons.AiFillProject/>,
         cName:'nav-text'
     },
     {
-        title:'',
+        title:'Contacts',
         path:'/contact',
         icon:<aiIcons.AiFillContacts/>,
         cName:'nav-text'
