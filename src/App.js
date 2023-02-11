@@ -10,29 +10,34 @@ import Skills from './Components/Skills/Skills'
 import Projects from './Components/Projects/Projects'
 import AllRoutes from './Components/Routes/AllRoutes'
 
+
 const App = () => {
   const { width } = useViewport();
-  const breakpoint = 1280;
+    const breakpoint = 1280;
   return (
-   <div className='App' style={{backgroundColor:"black"}}>
-    <Router>
+    <div  className='App' style={{backgroundColor:"black"}}>
+      <Router>
       
-         {
-         width < breakpoint ? <Navbar1 /> : <Navbar />
-         }
-      <Routes>
-        <Route path='/'>
-    </Route>
-    </Routes>
-    <Home/>
-    <About/>
-    <Skills/>
-    <Projects/>
-    {/* <AllRoutes/> */}
-    
-    </Router>
-  </div>
+               {
+               width < breakpoint ? <Navbar1 /> : <Navbar />
+               }
+            <Routes>
+              <Route path='/'>
+          </Route>
+          </Routes> 
+           <Home/>
+         
+           {/* <AllRoutes/>   */}
+          
+            </Router>
+    </div>
   )
 }
 
 export default App
+
+
+
+
+
+

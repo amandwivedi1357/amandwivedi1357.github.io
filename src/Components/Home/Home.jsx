@@ -7,6 +7,8 @@ import {BsLinkedin,BsGithub} from "react-icons/bs"
 import About from '../About/About'
 import Projects from '../Projects/Projects'
 import Skills from '../Skills/Skills'
+import Contact from '../Contact/Contact'
+import Footer from '../Footer/Footer'
 
 const Home = () => {
     // const style={backgroundColor:"gray",height:"auto",width:"100%"}
@@ -30,8 +32,11 @@ const Home = () => {
         </div>
         
       </Flex>
-      <Home/>
-    
+      <About/>
+           <Skills/>
+           <Projects/>
+          <Contact/>
+          <Footer/>
     </div>
   )
 }
