@@ -7,7 +7,7 @@ const Contact = () => {
     `
   return (
     <Wrapper name="Contact">
-      <h1 style={{color:"white",textAlign:"center",fontSize:"20px",paddingTop:"3rem"}}>Feel free to contact</h1>
+      <h1 style={{color:"white",textAlign:"center",fontSize:"20px",paddingTop:"4rem"}}>Feel free to contact</h1>
       <div className="container">
         <div className="contact-form">
             <form action="https://formspree.io/f/mvonkbap" method='POST' className='contact-input'>

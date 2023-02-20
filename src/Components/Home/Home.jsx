@@ -18,7 +18,7 @@ const Home = () => {
             <img className="myimg" src={propic} alt="" />
             <div className="btn-cont">
             <a href={resume} download ><button className='btn'>Resume</button></a>
-            <button name='Contact' className='btn'>Contact</button>
+            <button  className='btn'>Contact</button>
             </div>
         </div>
         <div className='vl'></div>

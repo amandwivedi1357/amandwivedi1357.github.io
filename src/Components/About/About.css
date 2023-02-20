@@ -4,7 +4,7 @@
     background-color: rgb(23, 3, 54);
     color:white;
     padding-top: 8%;
-    margin-top: -5%;
+    margin-top: 5%;
 }
 .content{
     padding-top: 9%;
@@ -12,6 +12,11 @@
     max-width: 70%;
     height: auto;
     margin: auto;
+    padding-bottom: 5rem;
+    
+}
+.content>Text{
+    
 }
 .content:hover{
     border-radius:50%;
