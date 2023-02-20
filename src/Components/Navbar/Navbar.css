@@ -4,6 +4,7 @@
     position: fixed;
     background-color: #ff3131;
     color: white;
+    z-index: 9999;
 
 }
 .navList:hover{
@@ -17,8 +18,8 @@
 .navList{
     margin-right: 4rem;
     justify-content: space-around;
+    padding-top: 8px;
 }
 .abcd{
     display: flex;
-    
 }

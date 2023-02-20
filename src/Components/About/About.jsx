@@ -3,7 +3,7 @@ import React from 'react'
 import "./About.css"
 const About = () => {
   return (
-    <div className='About-cont'>
+    <div className='About-cont' name="About">
       <div className='content'>
             <Text w="60%" m='auto' align={'justify'}> I am an aspiring web development professional, great commands at
 frontend designing and user-centric solutions. Collaborative,

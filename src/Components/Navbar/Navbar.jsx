@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className='Navbar'>
       <Flex pt={2}>
-      <Text className="navList" ml={5}>
+      <Text className="navList" ml={5} pt={2}>
       Aman
       </Text>
       <Spacer />
@@ -24,11 +24,13 @@ const Navbar = () => {
             {
               NavLinks.map((item,id)=>{
                 return (
+                  <Link to={item.link} smooth duration={500}>
                   <div className="navList">
                     <h3 key={id} onClick = {()=>navigate(item.links)}>
                       {item.link}
                     </h3>
                   </div>
+                  </Link>
                 )
               })
             }

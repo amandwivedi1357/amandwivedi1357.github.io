@@ -2,9 +2,10 @@
     height: 100vh;
     background-color: rgb(23, 3, 54);
     color:white;
+    padding-top: 5rem;
 }
 .projects-list{
-    border: 1px solid white;
+    
     max-width: 80%;
     height: auto;
     margin: auto;

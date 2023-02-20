@@ -1,10 +1,13 @@
 .HC{
     background-color: rgb(23, 3, 54);
-    height: 100vh;
+    height: auto;
     padding-top: 50px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .Left{
-    width: 40%;
+    max-width: 40%;
     
 }
 .vl{
@@ -12,7 +15,7 @@
     height: 625px;
 }
 .myimg{
-    margin: 10% 10% 10% 15%;
+    margin: 30% 10% 10% 15%;
     transition: 1s ease;
     border: 5px solid #ff3131;
 }
@@ -25,11 +28,17 @@
 }
 .btn{
     border: 3px solid #ff3131;
-    margin-left: 21%;
+    
+    margin-left: 3rem;
     width: 100px;
     background-color: #ff3131;
     color: white;
     border-radius: 8px;
+}
+.btn-cont{
+    width: 100%;
+    margin-left: 2rem;
+    
 }
 .btn:hover{
     border-radius: 8px;
@@ -40,10 +49,10 @@
                  0 0 40px #ff3131;
 }
 .right-cont{
-    width: 30rem;
-    margin: 10% 10% 10% 10%;
+    max-width: 50rem;
+    margin: 11.5% 10% 10% 20%;
     border: 2px solid rgb(255, 255, 255);
-    height: 400px;
+    height: auto;
     color: white;
 }
 .right-cont>.occ{
@@ -60,8 +69,11 @@
                transition: 1s ease;
 }
 .desc{
-    margin-top: 50px;
+    
     margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
 }
 .name:hover{
     color: #fff;
@@ -76,3 +88,9 @@
 .lin{
     font-size: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .HC{
+      flex-direction: column;
+    }
+  }

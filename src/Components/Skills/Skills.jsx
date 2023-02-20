@@ -6,7 +6,7 @@ import GitHubCalendar from 'react-github-calendar'
 const Skills = () => {
   return (
     
-     <div className="Skills-cont">
+     <div className="Skills-cont" name = "Skills">
         <div className='skill-list'>
                 {
                     skills.map((item,index)=>{
@@ -27,7 +27,7 @@ const Skills = () => {
           </div>
         </div>
         <div className='git-Cal'>
-        <div className="w-full mt-5">
+        <div className="w-full mt-5" style={{paddingBottom:"5rem",margin:"auto"}}>
           <GitHubCalendar
             username="amandwivedi1357"
             blockSize={15}

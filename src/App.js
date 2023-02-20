@@ -13,7 +13,7 @@ import AllRoutes from './Components/Routes/AllRoutes'
 
 const App = () => {
   const { width } = useViewport();
-    const breakpoint = 1280;
+    const breakpoint = 480;
   return (
     <div  className='App' style={{backgroundColor:"black"}}>
       <Router>

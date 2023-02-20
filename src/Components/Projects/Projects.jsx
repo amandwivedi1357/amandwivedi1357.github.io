@@ -1,10 +1,10 @@
-import { Button, Flex, Spacer, Text } from '@chakra-ui/react'
+import {Flex, Spacer, Text } from '@chakra-ui/react'
 import React from 'react'
 import "./Projects.css"
 import { ProjectData } from './ProjectsData'
 const Projects = () => {
   return (
-    <div className='projects-cont'>
+    <div className='projects-cont'name="Project" >
       <div className="projects-list">
         {
             ProjectData.map((item,index)=>{
