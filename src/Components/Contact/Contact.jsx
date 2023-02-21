@@ -1,26 +1,31 @@
-import styled from '@emotion/styled'
 import React from 'react'
-import "./Contact.css"
+import "./contact.css"
+import {AiOutlineLinkedin} from "react-icons/ai"
+import {AiOutlineWhatsApp} from "react-icons/ai"
+import {AiOutlineGithub} from "react-icons/ai"
 const Contact = () => {
-    const Wrapper = styled.section`
-    background-color: rgb(23, 3, 54);
-    `
   return (
-    <Wrapper name="Contact">
-      <h1 style={{color:"white",textAlign:"center",fontSize:"20px",paddingTop:"4rem"}}>Feel free to contact</h1>
-      <div className="container">
-        <div className="contact-form">
-            <form action="https://formspree.io/f/mvonkbap" method='POST' className='contact-input'>
-                <input type="text" name='username' placeholder='username' autoComplete='off' required/>
-                <input type="text" name='Email' placeholder='Email' autoComplete='off' required/>
-                <textarea name="message" id="" cols="30" rows="6" required>
+    <div className='container contact-container' id='contact'>
+      <h1>Contact Me</h1>
+      <div className='contact-links'>
 
-                </textarea>
-                <input type="submit" value='send' style={{backgroundColor:"#ff3131",color:"white"}} />
-            </form>
-        </div>
+        <a href="" className='contact youtube'>
+        <AiOutlineLinkedin className='icon'/>
+        <h2>LinkedIn<span>Aman Dwivedi</span></h2>
+        </a> 
+
+        <a href="" className='contact whatsapp'>
+        <AiOutlineWhatsApp className='icon'/>
+        <h2>WhatsApp<span>+91 7440501499</span></h2>
+        </a>
+
+        <a href="" className='contact instagram'>
+        <AiOutlineGithub className='icon'/>
+        <h2>Github<span>amandwivedi1357</span></h2>
+        </a>
+
       </div>
-    </Wrapper>
+    </div>
   )
 }
 

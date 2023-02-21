@@ -1,15 +1,25 @@
-import { Box, Flex, Text } from '@chakra-ui/react'
 import React from 'react'
 import "./Footer.css"
-import {FaHeart} from "react-icons/fa"
+import { BsGithub, BsLinkedin, BsMouse } from 'react-icons/bs'
 const Footer = () => {
   return (
-    <div className='Footer-cont'>
-       
-      <Flex pt={4} ml={'26rem'}> <p style={{fontSize:"20px",marginRight:"3px",}}> Made with  </p> <Box mt={1} mr={1}><FaHeart/></Box> by Aman Dwivedi</Flex>
-      
+    <div id='footer' className='container footer-container'>
+
+        <h1>That's All
+        <a href="#home">
+            <h2><BsMouse/>--scroll up--</h2>
+        </a>
+        </h1>
+        <div className="social-links">
+            <a href="#">
+                <BsGithub className='social'/>
+            </a>
+
+            <a href="#">
+                <BsLinkedin className='social'/>
+            </a>
+        </div>
     </div>
   )
 }
-
 export default Footer
