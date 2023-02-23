@@ -1,9 +1,12 @@
 .member-txt {
     font-size: 20px;
     top: 10px;
-    font-weight: 100;
+    margin-left: 2rem;
+    font-weight: 400;
   }
-  
+  .btns{
+    margin-right: 2rem;
+  }
   .members-container {
     position: relative;
     display: flex;

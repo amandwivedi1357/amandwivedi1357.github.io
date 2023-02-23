@@ -12,9 +12,9 @@ const nav = () => {
       <a href="#home">
         <AiOutlineHome className='icon active-nav'/>
       </a>
-      <a href="#about">
+      {/* <a href="#about">
         <AiOutlineUser className='icon'/>
-      </a>
+      </a> */}
       <a href="#skills">
         <GiSkills className='icon'/>
       </a>

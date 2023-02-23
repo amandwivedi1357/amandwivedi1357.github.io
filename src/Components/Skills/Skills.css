@@ -1,6 +1,9 @@
 .quali-text {
     font-size: 20px;
     top: 10px;
+    width: 100px;
+    
+    margin-bottom: 20px;
   }
   
   .qualifications-container {
@@ -18,7 +21,7 @@
   
   .qualifications-container .qualification {
     position: relative;
-    height: 550px;
+    height: 350px;
     min-width: 40%;
     background-color: rgb(9, 6, 31);
     border-radius: 20px;

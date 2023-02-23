@@ -4,7 +4,7 @@ import "./Skills.css"
 const Skills = () => {
   return (
     <div id='skills'>
-      <span className="quali-text">My Skills</span>
+      <div className="quali-text">My Skills</div>
       <div className="qualifications-container">
         <div className="qualification">
             <div className="content html"></div>

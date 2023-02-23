@@ -13,6 +13,9 @@ const Projects = () => {
         <a href="https://incandescent-dusk-dc6fe6.netlify.app/home.html" className='contact-member'>
           <span>Live</span>
         </a>
+        <a style={{marginLeft:"10rem"}} href="https://github.com/amandwivedi1357/abstracted-cactus-1793" className='contact-member'>
+          <span>Code</span>
+        </a>
       </div>
       </div>
 
@@ -25,7 +28,9 @@ const Projects = () => {
         <a href="https://funny-granita-6110f3.netlify.app/" className='contact-member'>
           <span>Live</span>
         </a>
-
+        <a style={{marginLeft:"10rem"}} href="https://github.com/PriyanshuPatil/Campaign-monitor.com" className='contact-member'>
+          <span>Code</span>
+        </a>
         
 
       </div>
@@ -40,6 +45,9 @@ const Projects = () => {
         <a href="travelocity-website.netlify.app/" className='contact-member'>
           <span>Live</span>
         </a>
+        <a style={{marginLeft:"10rem"}} href="https://github.com/swapnilwakchaure/paltrysteam6285" className='contact-member'>
+          <span>Code</span>
+        </a>
       </div>
       </div>
 
@@ -51,6 +59,9 @@ const Projects = () => {
         <h4 className="about">This is the photos of the Ainak website. Ainak is an online Ecommerce Website which is providing high quality eyewear. From this website, users can Order Computer Glasses,Sun Glasses,Kids Glasses and much more across the world.</h4>
         <a href="https://prismatic-taiyaki-f69ca6.netlify.app/" className='contact-member'>
           <span>Live</span>
+        </a>
+        <a style={{marginLeft:"10rem"}} href="https://github.com/akshay123332/Lenscart-Clone" className='contact-member'>
+          <span>Code</span>
         </a>
       </div>
       </div>
