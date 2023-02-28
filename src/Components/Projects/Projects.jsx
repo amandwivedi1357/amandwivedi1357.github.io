@@ -11,7 +11,7 @@ const Projects = () => {
         <h3 className="position">Solo Project</h3>
         <h4 className="about">Fitness Blender is an digital fitness company. The company offers free and paid at-home exercise videos through their website and YouTube channel.User can avail any subscription plan accordingly which were correctly mentioned in the website.</h4>
         <h4 className='TS'>Tech Stacks  :  HTML,CSS,JAVASCRIPT</h4>
-        <a href="" className='contact-member' onClick={()=>window.open('https://incandescent-dusk-dc6fe6.netlify.app/home.html')}>
+        <a href="" className='contact-member' onClick={()=>window.open('https://funny-granita-6110f3.netlify.app/')}>
           <span>Live</span>
         </a>
         <a style={{marginLeft:"10rem"}} href="" onClick={()=>window.open('https://github.com/amandwivedi1357/abstracted-cactus-1793')} className='contact-member'>
@@ -27,7 +27,7 @@ const Projects = () => {
         <h3 className="position">Collaborative Project</h3>
         <h4 className="about">Campaign Monitor is a global technology company that provides an email marketing platform that's easy to use yet extremely powerful. It also helps you to provide some nice looking templates for your email.</h4>
         <h4 className='TS'>Tech Stacks  :  HTML,CSS,JAVASCRIPT</h4>
-        <a href="" onClick={()=>window.open('https://funny-granita-6110f3.netlify.app/')} className='contact-member'>
+        <a href="" onClick={()=>window.open('https://incandescent-dusk-dc6fe6.netlify.app/home.html')} className='contact-member'>
           <span>Live</span>
         </a>
         <a style={{marginLeft:"10rem"}} onClick={()=>window.open('https://github.com/PriyanshuPatil/Campaign-monitor.com')} href="" className='contact-member'>
