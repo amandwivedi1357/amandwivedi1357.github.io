@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b26b70a.css",
+    "main.css": "/static/css/main.984432c8.css",
     "main.js": "/static/js/main.028112ea.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/fitness.jpg": "/static/media/fitness.33d042f858440fe6f99e.jpg",
@@ -10,12 +10,12 @@
     "static/media/fw20_0455_Aman_Dwivedi_Resume.pdf": "/static/media/fw20_0455_Aman_Dwivedi_Resume.f950160e69ff7757055c.pdf",
     "static/media/propic.jpg": "/static/media/propic.fe014a24e4aa90a3e359.jpg",
     "index.html": "/index.html",
-    "main.2b26b70a.css.map": "/static/css/main.2b26b70a.css.map",
+    "main.984432c8.css.map": "/static/css/main.984432c8.css.map",
     "main.028112ea.js.map": "/static/js/main.028112ea.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b26b70a.css",
+    "static/css/main.984432c8.css",
     "static/js/main.028112ea.js"
   ]
 }
