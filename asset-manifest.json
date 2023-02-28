@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.21a45044.css",
-    "main.js": "/static/js/main.47257edd.js",
+    "main.css": "/static/css/main.2b26b70a.css",
+    "main.js": "/static/js/main.21b114d8.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/travelocity.png": "/static/media/travelocity.94fb68afb8d3881b89bc.png",
-    "static/media/fitness.png": "/static/media/fitness.6a2be356e80824987220.png",
-    "static/media/email.png": "/static/media/email.9e8e7f2e52f56a65cc1b.png",
-    "static/media/Ainak.png": "/static/media/Ainak.45090b47c289832f86f6.png",
-    "static/media/Resume.pdf": "/static/media/Resume.90e533f85be9790b8d36.pdf",
+    "static/media/fitness.jpg": "/static/media/fitness.33d042f858440fe6f99e.jpg",
+    "static/media/travelocity.jpg": "/static/media/travelocity.f0803ce410bba2338a41.jpg",
+    "static/media/email.jpg": "/static/media/email.4274972d7a3ddd30876a.jpg",
+    "static/media/ainak.jpg": "/static/media/ainak.f7005fc0f11d2691172b.jpg",
+    "static/media/fw20_0455_Aman_Dwivedi_Resume.pdf": "/static/media/fw20_0455_Aman_Dwivedi_Resume.f950160e69ff7757055c.pdf",
     "static/media/propic.jpg": "/static/media/propic.fe014a24e4aa90a3e359.jpg",
     "index.html": "/index.html",
-    "main.21a45044.css.map": "/static/css/main.21a45044.css.map",
-    "main.47257edd.js.map": "/static/js/main.47257edd.js.map",
+    "main.2b26b70a.css.map": "/static/css/main.2b26b70a.css.map",
+    "main.21b114d8.js.map": "/static/js/main.21b114d8.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.21a45044.css",
-    "static/js/main.47257edd.js"
+    "static/css/main.2b26b70a.css",
+    "static/js/main.21b114d8.js"
   ]
 }
