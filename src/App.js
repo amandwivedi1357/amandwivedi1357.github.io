@@ -1,27 +1,28 @@
-import React from 'react'
-import "../src/style.css"
-import About from './Components/About/About'
-import Contact from './Components/Contact/Contact'
-import Footer from './Components/Footer/Footer'
-import Header from './Components/Header/Header'
-import Home from './Components/Home/Home'
-import Nav from './Components/nav/Nav'
-import Projects from './Components/Projects/Projects'
+import About from "./Components/About";
+import Cont from "./Components/Cont";
+import Contact from "./Components/Contact";
+import Github from "./Components/Github";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import Portfolio from "./Components/Portfolio";
+import Skills from "./Components/Skills";
 
-const App = () => {
+
+function App() {
   return (
-    <>
-    <div className='bg-circle1'></div>
-    <div className='bg-circle2'></div>
-      <Header/>
-      <Nav/>
-      <Home/>
-      <About/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </>
-  )
+    <div>
+      <Navbar/>
+      <Home />
+      <About />
+      <Skills />
+      <Github/>
+      <Portfolio />
+      
+      <Contact />
+      <Cont />
+      
+    </div>
+  );
 }
 
-export default App
+export default App;

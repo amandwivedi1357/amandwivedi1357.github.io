@@ -21,12 +21,12 @@
         "react-router-dom": "^6.6.0",
         "react-scripts": "5.0.1",
         "react-scroll": "^1.8.8",
+        "react-social-icons": "^5.15.0",
         "styled-components": "^5.3.6",
         "swiper": "^8.4.5",
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
@@ -51,5 +51,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "tailwindcss": "^3.2.7"
     }
 }
