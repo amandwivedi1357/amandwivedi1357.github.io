@@ -34,6 +34,10 @@
     padding: 60px;
     border-radius: 50px;
   }
+  .members-container .member member1{
+    display: flex;
+    height: auto;
+  }
   .members-container .member .member-img1 {
     height: 300px;
     width: 500px;
@@ -354,9 +358,43 @@
       border-radius: 50px;
       backdrop-filter: blur(20px);
     }
+    .members-container .member member1{
+      flex-direction: column;
+    }
     .members-container .member .member-img1 {
       height: 70px;
       width: 70px;
+      display: none;
+      border-radius: 50%;
+      background: rgb(5, 7, 37) url(../../Assets/fitness.jpg);
+      background-size: cover;
+      background-position: center;
+      border: 2px solid var(--color-sec-light);
+    }
+    .members-container .member .member-img2 {
+      height: 70px;
+      width: 70px;
+      display: none;
+      border-radius: 50%;
+      background: rgb(5, 7, 37) url(../../Assets/fitness.jpg);
+      background-size: cover;
+      background-position: center;
+      border: 2px solid var(--color-sec-light);
+    }
+    .members-container .member .member-img3 {
+      height: 70px;
+      width: 70px;
+      display: none;
+      border-radius: 50%;
+      background: rgb(5, 7, 37) url(../../Assets/fitness.jpg);
+      background-size: cover;
+      background-position: center;
+      border: 2px solid var(--color-sec-light);
+    }
+    .members-container .member .member-img4 {
+      height: 70px;
+      width: 70px;
+      display: none;
       border-radius: 50%;
       background: rgb(5, 7, 37) url(../../Assets/fitness.jpg);
       background-size: cover;
@@ -469,6 +507,7 @@
       padding: 15px 25px;
       font-size: 15px;
       border-radius: 50px;
+      margin-left: 5rem;
       transition: 0.1s ease;
       position: absolute;
       top: -55px;

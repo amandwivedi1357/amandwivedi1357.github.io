@@ -8,6 +8,30 @@
     margin-left:9rem;
   }
 
+  @media (max-width: 1280px){
+    .github{
+      margin-left: -10rem;
+      margin-top: 65rem;
+      width: 99%;
+    }
+    .github-stats{
+      width: 50%;
+      margin-left: -0rem;
+    }
+  }
+
+  @media (max-width: 1024px){
+    .github{
+      margin-left: -10rem;
+      margin-top: 65rem;
+      width: 99%;
+    }
+    .github-stats{
+      width: 50%;
+      margin-left: -6rem;
+    }
+  }
+
   @media (max-width: 500px) {
 
     .github{
@@ -40,6 +64,10 @@
       margin-left: 0rem;
       margin-top: 35rem;
       width: 99%;
+    }
+    .github-stats{
+      width: 50%;
+      margin-left: 0rem;
     }
 
   }
