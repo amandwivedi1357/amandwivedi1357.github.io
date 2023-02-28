@@ -38,6 +38,26 @@ const Skills = () => {
             <div className="content kotlin"></div>
             <h1>npm</h1>
         </div>
+        <div className="qualification">
+            <div className="content typescript"></div>
+            <h1>typescript</h1>
+        </div>
+        <div className="qualification">
+            <div className="content redux"></div>
+            <h1>redux</h1>
+        </div>
+        <div className="qualification">
+            <div className="content node"></div>
+            <h1>node js</h1>
+        </div>
+        <div className="qualification">
+            <div className="content express"></div>
+            <h1>express</h1>
+        </div>
+        <div className="qualification">
+            <div className="content mongo"></div>
+            <h1>mongo</h1>
+        </div>
       </div>
      
     </div>

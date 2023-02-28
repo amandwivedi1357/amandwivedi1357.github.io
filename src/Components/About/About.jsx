@@ -4,7 +4,7 @@ import Skills from '../Skills/Skills'
 import "./About.css"
 const About = () => {
   return (
-    <div id='about' className='container about-container'>
+    <div id='skills' className='container about-container'>
       <Skills/>
       <div className='github'>
       <Github />

@@ -1,3 +1,45 @@
 .github{
-    margin-top: 45rem;
+    margin-top: 25rem;
+  }
+  .github-stats{
+    padding-bottom:"5rem"
+  }
+  .github-stats>img{
+    margin-left:9rem;
+  }
+
+  @media (max-width: 500px) {
+
+    .github{
+      margin-left: -6rem;
+      margin-top: 105rem;
+      width: 99%;
+    }
+    .github-stats{
+      width: 50%;
+    }
+    .github-stats>img{
+      margin: 0;
+      width: 23rem;
+    }
+    
+  }
+
+  @media (max-width: 420px) {
+
+    .github{
+      
+      margin-top: 35rem;
+      width: 99%;
+    }
+
+  }
+
+  @media (max-width: 375px) {
+    .github{
+      margin-left: 0rem;
+      margin-top: 35rem;
+      width: 99%;
+    }
+
   }

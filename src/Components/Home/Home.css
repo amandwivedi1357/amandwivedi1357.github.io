@@ -8,7 +8,13 @@
     justify-content: center;
     align-items: center;
   }
-  
+  .abt-me{
+    text-align: justify;
+  }
+  .abt-me>span{
+    color: var(--color-pri);
+    margin-bottom: 1rem;
+  }
   .home-container .logo {
     position: inherit;
     margin-top: -50px;

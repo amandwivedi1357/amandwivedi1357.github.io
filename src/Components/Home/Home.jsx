@@ -5,7 +5,7 @@ import { BsMouse } from 'react-icons/bs'
 import Button from '../Button/Button'
 const Home = () => {
   return (
-    <div className="container home-container" id='home'>
+    <div className="container home-container" id=''>
 
         <div className="logo" >
             <div className='main-img'>
@@ -27,7 +27,7 @@ const Home = () => {
             </h5>
             <BsMouse className='scroll'/>
         </a>
-        <h2><span>About Me</span>
+        <h2 id='about' className='abt-me'><span>About Me</span>
         <p>I am an aspiring web development professional, great commands at frontend designing and user-centric solutions. Collaborative, team player and also with great leadership quality in working with teams and executing goal-oriented projects. Strongly interested in obtaining the web developer position to contribute to the enhancement of the product.</p>
         </h2>
         
