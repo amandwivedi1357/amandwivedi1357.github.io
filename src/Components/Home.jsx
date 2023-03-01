@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div name="home" className="h-screen w-full bg-white pt-40">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center h-full px-8  md:pt-9 md:flex-row pb-6">
-        <div className="flex flex-col justify-center h-full">
+        <div style={{marginLeft:"10rem"}} className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-black">
             AMAN
           </h2>

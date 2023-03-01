@@ -12,10 +12,10 @@ const Portfolio = () => {
     window.open("https://funny-pegasus-c3b55b.netlify.app/","_blank");
   };
   const newtab2 = () => {
-    window.open("https://github.com/amandwivedi1357/abstracted-cactus-1793","_blank");
+    window.open("https://github.com/amandwivedi1357/Styluxe.com","_blank");
   };
   const newtab3 = () => {
-    window.open("https://funny-granita-6110f3.netlify.app/","_blank");
+    window.open("https://styluxe.vercel.app/","_blank");
   };
   const newtab4 = () => {
     window.open("https://github.com/swapnilwakchaure/paltry_steam_6285","_blank");

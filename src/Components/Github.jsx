@@ -15,6 +15,9 @@ const Github = () => {
             <div className=' p-10 mt-10 flex justify-center shadow-md hover:scale-105 duration-500 shadow-blue-600 rounded-xl'>
                 <img src="https://github-readme-streak-stats.herokuapp.com?user=amandwivedi1357&theme=nightowl&hide_border=true&border_radius=0&date_format=M%20j%5B%2C%20Y%5D" alt="streak" className='align-center' />
             </div>
+            <div className=' p-10 mt-10 flex justify-center shadow-md hover:scale-105 duration-500 shadow-blue-600 rounded-xl'>
+                <img src="https://github-readme-stats.vercel.app/api?username=amandwivedi1357&show_icons=true&locale=en&border_radius=2&theme=light" alt="stats" className='align-center' />
+            </div>
         </div>
       
     </div>
