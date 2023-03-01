@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7ae29ce6.css",
-    "main.js": "/static/js/main.b32cc73d.js",
+    "main.js": "/static/js/main.8bf77feb.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/fitness.jpg": "/static/media/fitness.33d042f858440fe6f99e.jpg",
     "static/media/travelocity.jpg": "/static/media/travelocity.f0803ce410bba2338a41.jpg",
     "static/media/chakra.png": "/static/media/chakra.e4cb472ccaabf22affba.png",
     "static/media/email.jpg": "/static/media/email.4274972d7a3ddd30876a.jpg",
     "static/media/ainak.jpg": "/static/media/ainak.f7005fc0f11d2691172b.jpg",
+    "static/media/styluxe.jpg": "/static/media/styluxe.5b1eb288a7631b973e22.jpg",
     "static/media/fw20_0455_Aman_Dwivedi_Resume.pdf": "/static/media/fw20_0455_Aman_Dwivedi_Resume.90e533f85be9790b8d36.pdf",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/story.png": "/static/media/story.23318ca83013a10bb4e5.png",
@@ -24,11 +24,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.7ae29ce6.css.map": "/static/css/main.7ae29ce6.css.map",
-    "main.b32cc73d.js.map": "/static/js/main.b32cc73d.js.map",
+    "main.8bf77feb.js.map": "/static/js/main.8bf77feb.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7ae29ce6.css",
-    "static/js/main.b32cc73d.js"
+    "static/js/main.8bf77feb.js"
   ]
 }
