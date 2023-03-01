@@ -2,7 +2,7 @@ import React from "react";
 import milaap from "../Assets/Portfolio/ainak.jpg";
 import travelo from "../Assets/Portfolio/travelocity.jpg";
 import wrike1 from "../Assets/Portfolio/email.jpg";
-import kindmeal from "../Assets/Portfolio/fitness.jpg";
+import styluxe from "../Assets/Portfolio/styluxe.jpg";
 const Portfolio = () => {
   const newtab = () => {
     window.open("https://github.com/akshay123332/fun-trees-7619","_blank");
@@ -103,7 +103,7 @@ const Portfolio = () => {
               </div>
               <h3 onClick={() => newtab3()} class="cursor-pointer">
                 <img
-                  src={kindmeal}
+                  src={styluxe}
                   alt="kindmeal"
                   class="rounded-md duration-300 hover:scale-105"
                 />
@@ -112,21 +112,21 @@ const Portfolio = () => {
 
             <div class="flex flex-col justify-center border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
               <h1 class="text-4xl font-bold mt-4 md:mt-0 ">
-               Fitness Blender
+               Styluxe.com
               </h1>
               <h1>
-              Fitness Blender is an digital fitness company. The company offers free and paid at-home exercise videos through their website and YouTube channel.User can avail any subscription plan accordingly which were correctly mentioned in the website.
+              Stylux is E-commerce website specialized in online retailing of men's and women's garments and accessories and this is clone of yepme website
               </h1>
               <br />
               <p class="text-2xl font-bold">Features</p>
               <p>
                 Landing Page <br /> SignUp/Login functionality <br /> Product
-                pages
+                pages <br /> payment functionality <br /> admin dashboard
               </p>
               <br />
               <p class="text-2xl font-bold">TechStack </p>
               <p>
-                HTML <br /> CSS <br /> JavaScript
+                React js <br /> chakra-ui <br /> node js <br /> express js <br /> mongo db 
               </p>
             </div>
           </div>
