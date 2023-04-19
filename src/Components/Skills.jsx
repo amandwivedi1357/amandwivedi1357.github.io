@@ -115,12 +115,12 @@ const Skills = () => {
       title: "Mongoose",
       style: "shadow-red-900",
     },
-    {
-      id: 12,
-      src: tailwind,
-      title: "Tailwind",
-      style: "shadow-sky-400",
-    },
+    // {
+    //   id: 12,
+    //   src: tailwind,
+    //   title: "Tailwind",
+    //   style: "shadow-sky-400",
+    // },
   
     {
       id: 13,
@@ -129,12 +129,12 @@ const Skills = () => {
       style: "shadow-teal-300",
     },
     
-    {
-      id: 15,
-      src: story,
-      title: "Storybook",
-      style: "shadow-pink-600",
-    },
+    // {
+    //   id: 15,
+    //   src: story,
+    //   title: "Storybook",
+    //   style: "shadow-pink-600",
+    // },
   ];
 
   return (
