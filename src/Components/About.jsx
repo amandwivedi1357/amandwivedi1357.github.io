@@ -14,8 +14,7 @@ const About = () => {
           <p className=" text-4xl font-bold pt-20">About</p>
         </div>
         <p className="text-2xl mt-5 pb-40">
-        I am a M.E.R.N Stack Developer along with theoretical knowledge about
-          storybook.<br/>
+        I am a M.E.R.N Stack Developer who possess high passion for the development field.<br/>
           I am an aspiring web development professional, great commands at frontend designing and user-centric solutions. Collaborative, team player and also with great leadership quality in working with teams and executing goal-oriented projects. Strongly interested in obtaining the web developer position to contribute to the enhancement of the product.
         </p>
       </div>
