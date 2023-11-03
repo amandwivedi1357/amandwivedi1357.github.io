@@ -8,9 +8,9 @@ const Home = () => {
     window.open("https://drive.google.com/file/d/1tUV-56yg5zQ2WvBfCQpUKaYPX3Bi-81P/view?usp=share_link","_blank")
   }
   return (
-    <div name="home" className="h-screen w-full bg-white pt-40">
+    <div name="home" className="h-screen w-full bg-white pt-40 mx-auto">
       <div className="max-w-screen-xl mx-auto flex flex-col items-center h-full px-8  md:pt-9 md:flex-row pb-6">
-        <div style={{marginLeft:"10rem"}} className="flex flex-col justify-center h-full">
+        <div style={{margin:"auto"}} className="flex flex-col justify-center h-full md:ml-0 md:w-1/2">
           <h2 className="text-4xl sm:text-7xl font-bold text-black">
             AMAN
           </h2>
