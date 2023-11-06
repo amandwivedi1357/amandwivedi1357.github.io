@@ -12,8 +12,10 @@ import chakra from "../Assets/chakra.png";
 import typescript from "../Assets/typescript.png";
 import express from "../Assets/express.png";
 import mongo from "../Assets/mongo.png";
+import shadCN from "../Assets/shadcn.png";
 import mongoose from "../Assets/mongoose.png";
-import story from "../Assets/story.png";
+import firebase from "../Assets/firebase.png";
+import zustand from "../Assets/zustand.jpeg";
 import vs from "../Assets/vscode.jpeg"
 import post from "../Assets/post.png"
 import npm from "../Assets/npm.png"
@@ -115,12 +117,12 @@ const Skills = () => {
       title: "Mongoose",
       style: "shadow-red-900",
     },
-    // {
-    //   id: 12,
-    //   src: tailwind,
-    //   title: "Tailwind",
-    //   style: "shadow-sky-400",
-    // },
+    {
+      id: 12,
+      src: tailwind,
+      title: "Tailwind",
+      style: "shadow-sky-400",
+    },
   
     {
       id: 13,
@@ -129,12 +131,24 @@ const Skills = () => {
       style: "shadow-teal-300",
     },
     
-    // {
-    //   id: 15,
-    //   src: story,
-    //   title: "Storybook",
-    //   style: "shadow-pink-600",
-    // },
+    {
+      id: 14,
+      src: firebase,
+      title: "Firebase",
+      style: "shadow-yellow-600",
+    },
+    {
+      id: 15,
+      src: zustand,
+      title: "Zustand",
+      style: "shadow-black",
+    },
+    {
+      id: 16,
+      src: shadCN,
+      title: "ShadCN",
+      style: "shadow-black",
+    },
   ];
 
   return (
